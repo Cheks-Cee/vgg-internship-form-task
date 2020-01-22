@@ -1,0 +1,101 @@
+body{
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    width: 60vw;
+    margin: auto;
+    /* border: 1px solid red; */
+
+}
+
+h1{
+    margin: 2rem;
+    margin-top: 3rem;
+    color: white;
+    text-shadow: 0 0 3px rgb(145, 141, 141);
+   
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+    align-items: center;
+}
+
+form{
+    width: 35vw;
+    height: auto;
+    box-shadow: 0 2px 3px rgb(168, 165, 165) ;
+    /* border: 1px solid rgb(19, 18, 18); */
+    
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: auto;
+    padding: auto;
+
+} */
+
+.case{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    
+}
+
+input, select{
+    width: 100%;
+    padding: .5rem;
+    box-sizing: border-box;
+    
+}
+
+input[type="textarea"]{
+    height: 10vh;
+}
+
+input[type="submit"]{
+    width: 8vw;
+    margin: 1rem auto;
+    background-color: rgb(70, 128, 182);
+    color: white;
+}
+
+legend{
+    line-height: 45px;
+    color: rgb(66, 42, 42);
+    font-size: 1.2rem;
+}
+
+/* button{
+    margin: 1rem auto;
+    width: 8rem;
+    height: 4vh;
+
+} */
+
