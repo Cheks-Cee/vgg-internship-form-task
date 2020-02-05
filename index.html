@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VGG Registration form (Internship task)</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="main">
@@ -17,17 +18,17 @@
                 <div class="form">
                     <div class="case">
                         <legend>Name</legend>
-                        <input type="text" Placeholder="Surname first">
+                        <input type="text" Placeholder="Surname first" required>
                     </divclass="case">
                     
                     <div class="case">
                         <legend>Email Address</legend>
-                        <input type="email" placeholder="hddkjdjk@jdmd.com">
+                        <input type="email" placeholder="hddkjdjk@jdmd.com" required>
                     </div>
                     
                     <div class="case">
                         <legend>Track</legend>
-                        <select name="track" id="">
+                        <select name="track" id="" required>
                             <option value="option">.</option>
                             <option value="Frontend">Frontend</option>
                             <option value="Backend">Backend</option>
@@ -37,6 +38,16 @@
     
                         </select>
     
+                    </div>
+                    <div class="case">
+                        <legend>Password</legend>
+                        <input type="password" placeholder="password" id="password" required>
+                        <p id="hide">password not less than 2 characters, must not begin with a number</p>
+                    </div>
+                    <div class="case">
+                        <legend>Confirm Password</legend>
+                        <input type="password" id="confirm">
+                        <p id="confirmWarn">Password does not match</p>
                     </div>
                     <div class="case">
                         <legend>Comment</legend>
@@ -52,6 +63,7 @@
         </div class="wrapper">
 
     </div>
+    <script src="index.js"></script>
    
 </body>
 </html>

@@ -20,6 +20,7 @@ h1{
     margin-top: 3rem;
     color: white;
     text-shadow: 0 0 3px rgb(145, 141, 141);
+    font-family: 'Lobster', cursive;
    
 }
 
@@ -27,7 +28,6 @@ h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80vh;
     align-items: center;
 }
 
@@ -80,7 +80,7 @@ input[type="textarea"]{
 }
 
 input[type="submit"]{
-    width: 8vw;
+    width: 10vw;
     margin: 1rem auto;
     background-color: rgb(70, 128, 182);
     color: white;
@@ -92,10 +92,16 @@ legend{
     font-size: 1.2rem;
 }
 
-/* button{
-    margin: 1rem auto;
-    width: 8rem;
-    height: 4vh;
+#hide{
+    /* visibility: hidden; */
+    display: none;
+}
 
+#confirmWarn{
+    display: none;
+    color: red;
+}
+
+/* #password:focus{
+    visibility: visible;
 } */
-
