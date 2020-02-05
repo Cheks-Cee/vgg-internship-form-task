@@ -105,3 +105,20 @@ legend{
 /* #password:focus{
     visibility: visible;
 } */
+
+@media (max-width: 950px){
+    .main{
+        width: 80vw;
+    }
+
+    form{
+        width: 80vw;
+    }
+    .case{
+        width: 65vw;
+    }
+
+    input[type="submit"]{
+        width: 20vw;
+    }
+}
